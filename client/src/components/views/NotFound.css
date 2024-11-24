@@ -1,0 +1,49 @@
+.not-found {
+    background-color: #f8f9fa; /* Light background */
+    color: #343a40; /* Dark text for good contrast */
+  }
+  
+  .not-found-content {
+    margin-bottom: 20px;
+  }
+  
+  .not-found h1 {
+    font-size: 6rem;
+    font-weight: bold;
+  }
+  
+  .not-found h3 {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  
+  .not-found .lead {
+    font-size: 1.25rem;
+    color: #6c757d;
+  }
+  
+  .not-found .btn-primary {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  
+  .not-found-image img {
+    max-width: 300px;
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .not-found h1 {
+      font-size: 4rem;
+    }
+  
+    .not-found h3 {
+      font-size: 1.5rem;
+    }
+  
+    .not-found .lead {
+      font-size: 1rem;
+    }
+  }
+  
